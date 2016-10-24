@@ -1,0 +1,407 @@
+body
+{
+	color: black;
+	background-color: #ccffff;
+	font-family: garamond;
+}
+h1
+{
+	color: #003366;
+	text-align: center;
+	padding: 5%;
+	padding-bottom: 2%;
+	font-size: 50px;
+}
+h2
+{
+	font-family: garamond;
+	color: #003366;
+	margin-left: 5%;
+}
+
+.textBox input
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+    background: white;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #003366;
+    color: #666;
+    text-indent: 5px;
+
+  }
+.profileButtons
+{
+	display: inline;
+}
+
+.buttons
+{
+	margin: auto;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border: 1px solid #003366;
+	border-radius: 5px;
+	display: block;
+	background-color: #0099cc;
+	color: white;
+}
+
+
+#homepost{
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+
+
+.but input.buttons:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #33cccc;
+	color: darkblue;
+}
+#weather{
+	display: none;
+}
+a:visited{
+	color: darkblue;
+	font-weight: bolder;
+}
+a:hover{
+	color: purple;
+}
+ul li
+{
+	display: inline;
+	float: right;
+	text-align: center;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-top: 5px;
+	padding: 5px;
+	font-family: Book Antiqua;
+	border: inset #0099cc;
+	background-color: #33cccc;
+}
+li:hover {
+	background-color: cyan;
+	color: white;
+	border-color: darkblue;
+}
+p
+{
+	font-size: 15px;
+	text-align: center;
+}
+p#linkToAbout
+{
+	text-align: center;
+}
+.description
+{
+	margin: auto;
+	width: 400px;
+}
+/*SignUp Page*/
+div#signUpBoxes input
+{
+	margin: auto;
+	display: block;
+	margin-bottom: 2%;
+}
+/*Settings Page*/
+.changeSettings
+{
+	display: block;
+	text-align: center;
+}
+
+.box
+{
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.setButtons
+{
+	display: inline;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	border: 1px solid #003366;
+	border-radius: 5px;
+	background-color: #0099cc;
+	color: white;
+	margin-left: 12%;
+	margin-right: 2%;
+}
+
+p.setDesc
+{
+	display: inline;
+	margin-bottom: 12%;
+	margin-left: 2%;
+}
+div#settingsWrapper
+{
+	display: block;
+}
+
+.settingsBox
+{
+    background: white;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #003366;
+    color: #666;
+    text-indent: 5px;
+    display: inline;
+    width: 180px;
+    margin-bottom: 3%;
+  }
+.checkBoxes
+{
+	display: inline;
+	margin-left: 11%;
+}
+h2#checkHeading
+{
+	display: inline;
+	margin-left: 10%;
+}
+.checkLabel
+{
+	display: inline;
+}
+input#acceptSettings
+{
+	width: 100px;
+	margin-top: 4%;
+}
+.setBut input.setbuttons:hover
+{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: teal;
+	color: cyan;
+}
+/*About Page*/
+p#aboutDesc
+{
+	float: left;
+	width: 39%;
+	margin-left: 3%;
+}
+
+input#aboutButton
+{
+	margin-top: 23%;
+}
+img#duckPondImage
+{
+	float: right;
+	margin-right: 13%;
+	margin-top: -6%;
+}
+.Umbrella
+{
+	display: inline;
+	float: left;
+	margin-left: 2%;
+	border-radius: 25%;
+}
+
+#exit{
+	position: absolute;
+	top: 1px;
+	right: 1px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+span#error {
+	text-align: center;
+	color: red;
+	display: block;
+	font-weight: bold;
+}
+
+form#register input.available {
+	background-color: lightgreen;
+}
+
+form#register input.unavailable {
+	background-color: pink;
+}
+
+div#addClothes
+{
+	display: none;
+	position: absolute;
+	padding-top: 20px;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	width: 540px;
+	background-color: white;
+	border: 1px solid black;
+}
+
+#nameClothing
+{
+	display: block;
+}
+
+input#tempMin
+{
+	margin-left: 3%;
+	display: inline;
+	width: 100px;
+}
+
+input#nameClothing{
+	display: inline;
+	margin-left: 3%;
+}
+input#tempMax{
+	display: inline;
+	margin-left: 3%;
+	width: 100px;
+}
+
+input#submitClothingButton{
+	margin-left: 23%;
+}
+input#deleteClothingButton{
+	display: none;
+}
+
+select
+{
+	float: left;
+	background-color: white;
+	color: #003366;
+	display: inline;
+    border: 1px solid #003366;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #003366;
+    text-indent: 5px;
+}
+
+.listOfClothes{
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+ul#listOfClothes{
+	margin: 0%;
+	padding: 0%;
+}
+
+table, td, th {
+    text-align: center;
+		color: #003366;
+		font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+		margin: auto;
+		margin-bottom: 5%;
+}
+th {
+    background-color: teal;
+    color: white;
+		font-size:19px;
+}
+
+ tr:nth-child(even){
+	 background-color:  #70dbdb;
+ }
+
+th, td {
+    padding: 15px;
+}
+
+
+p.post{
+	text-align: left;
+}
+div.post{
+	border-bottom: 1px solid gray;
+	margin-bottom: 5px;
+}
+div.feed{
+	width: 700px;
+	margin: auto;
+	border: 1px solid black;
+	background-color: white;
+	padding: 5px;
+}
+h2#feed{
+	text-align: center;
+	margin-left: 0;
+}
+div#tabs{
+	text-align: center;
+}
+h3.tab{
+	display: inline-block;
+	border: 1px solid grey;
+	border-bottom: none;
+	padding: 5px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h3#following{
+	cursor: pointer;
+}
+h3#global{
+	background-color: white;
+}
+select.dropDown
+{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#message{
+	height: 80px;
+	width: 300px;
+}
+
+div#following{
+	display: none;
+}
+
+
+svg
+{
+	display: block;
+	margin: 0 auto;
+}
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root {
+  pointer-events: none;
+}
